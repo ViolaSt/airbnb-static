@@ -25,11 +25,13 @@
   </head>
 
   <body class="<%= page_classes %>">
-
     <%= partial "navbar" %>. <!-- call _navbar.html.erb partial -->
+  <div class="body">
+
     <%= yield %>.  <!-- Page content is injected here -->
 
-    <%= partial "footer" %> <!-- call _footer.html.erb partial -->
+  </div>
+    <%= partial "footer" %> <!-- call _footer.html.erb partial <-->
 
 
   </body>

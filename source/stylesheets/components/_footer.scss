@@ -6,20 +6,19 @@
   position: absolute;
   bottom: 0px;
   width: 100%;
-}
-
-#footer p {
+  p {
   margin-top: 17px;
-}
-#footer ul {
+  }
+  ul {
   margin-top: 10px;
-}
-#footer a {
+  }
+  a {
   color: #CCCCCC;
   font-size: 30px;
   letter-spacing: 20px;
   transition: color 0.5s ease;
-}
-#footer a:hover{
+  }
+  &:hover{
   color: yellow;
-}
+  }
+  }
